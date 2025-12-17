@@ -3,7 +3,7 @@ import os
 path = r"C:\Users\BassemMonla\.lmstudio\models\lmstudio-community\gpt-oss-20b-GGUF"
 print(f"Checking path: {path}")
 
-if os.path.exists(path):
+if os.path.exists(path): 
     print("Path exists!")
     if os.path.isdir(path):
         print("It is a directory. Contents:")
